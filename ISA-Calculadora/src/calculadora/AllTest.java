@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  * JUnit - Test-Driven Development
  * 
  * @author Domingo Martinez
- * @author Giovanni LÃ³pez
+ * @author Giovanni López
  * @author Miguel Setien
  * @author Noelia Alonso
  * @author Pablo garcia 
@@ -18,11 +18,11 @@ import static org.junit.Assert.*;
  * 
  * COMENTARIOS:
  * Controlamos error de calculo con -999 
- * en cada uno de los los mÃ©todos.
+ * en cada uno de los los métodos.
  * 
  */
 public class AllTest {
-	//Fase de inicializaciÃ³n
+	//Fase de inicialización
     private Calculadora c = new Calculadora();
     private double a = 0, b = 0;
 	
@@ -54,7 +54,7 @@ public class AllTest {
 	
 	@org.junit.Test
 	public void testMultiplicacion() {		
-		//MULTIPLICACIÃ“N
+		//MULTIPLICACIÓN
         a=2;b=3;c.setA(a);c.setB(b);
 		assertEquals(6, c.multiplicar(), 0.00);
 		a=2;b=3.5;c.setA(a);c.setB(b);

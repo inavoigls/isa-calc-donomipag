@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 /**
  * Clase Calculadora
  * @author Domingo Martinez
- * @author Giovanni Lï¿½pez
+ * @author Giovanni López
  * @author Miguel Setien
  * @author Noelia Alonso
  * @author Pablo garcia 
@@ -13,7 +13,12 @@ import java.math.RoundingMode;
  * @version 1.0
  * 
  * PREMISAS
- * 1.	Suma y resta de nï¿½meros reales.
+ * 1.	Suma y resta de números reales.
+ * 2.	Multiplicación y división de números reales.
+ * 3.	Raíz cuadrada de números reales. Deberéis identificar un método de cálculo aproximado, al no poder utilizar funciones de la librería matemática.
+ * 4.	Función exponencial con a e. Deberéis identificar un método de cálculo aproximado, al no poder utilizar funciones de la librería matemática.
+ * 
+ * Para las operaciones 3 y 4 no podrás hacer uso de ninguna librería matemática 
  * 
  **/
 
@@ -122,3 +127,4 @@ public class Calculadora {
         bigDecimal = bigDecimal.setScale(3, RoundingMode.HALF_UP);
         return bigDecimal.doubleValue();
     }
+}
