@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 /**
  * Clase Calculadora
  * @author Domingo Martinez
- * @author Giovanni L�pez
+ * @author Giovanni Lopez
  * @author Miguel Setien
  * @author Noelia Alonso
  * @author Pablo garcia 
@@ -13,7 +13,7 @@ import java.math.RoundingMode;
  * @version 1.0
  * 
  * PREMISAS
- * 1.	Suma y resta de n�meros reales.
+ * 1.	Suma y resta de numeros reales.
  * 
  **/
 
